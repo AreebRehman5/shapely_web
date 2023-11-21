@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-size: 14px;
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -5,6 +6,10 @@ body {
     overflow-x: hidden;
     font-weight: 400;
 }
+=======
+
+    
+>>>>>>> e515a2c03795e1d35c4acde36cea09c85790f9d7
 
 
 .footer {
@@ -38,6 +43,7 @@ body {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 
 .button {
     border: none;
@@ -51,11 +57,26 @@ body {
 
     cursor: pointer;
 
+=======
+.button {
+  border: none;
+  margin: 4px 2px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+>>>>>>> e515a2c03795e1d35c4acde36cea09c85790f9d7
 }
 
 
 
 
+<<<<<<< HEAD
 .button1 {
     background-color: blueviolet;
     margin-right: 10px;
@@ -98,3 +119,19 @@ h1 {
     display: block;
 }
 
+=======
+
+.button1 {background-color: blueviolet; margin-left: 60px ; ;} 
+.button2 {background-color: white;  margin-left: 60px;} 
+
+@media screen and (max-width: 480px) {
+    .row {
+      display: block !important;
+    }
+    .section {
+        display: block !important;
+      }
+      .box {
+        display: block !important;
+      }
+>>>>>>> e515a2c03795e1d35c4acde36cea09c85790f9d7
