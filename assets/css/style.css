@@ -1,3 +1,7 @@
+
+    
+
+
 .footer {
   
     left: 0;
@@ -27,13 +31,34 @@
 .fa-solidfa-magnifying-glass{
     cursor: pointer;
 }
-@media (max-width: 575.98px)  {
-    .section {
-      display: block !important;
-    } }
 
-
-
-
-
+.button {
+  border: none;
+  margin: 4px 2px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
  
+}
+
+
+
+
+.button1 {background-color: blueviolet; margin-left: 60px ; ;} 
+.button2 {background-color: white;  margin-left: 60px;} 
+
+@media screen and (max-width: 480px) {
+    .row {
+      display: block !important;
+    }
+    .section {
+        display: block !important;
+      }
+      .box {
+        display: block !important;
+      }
