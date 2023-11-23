@@ -1,16 +1,28 @@
-<<<<<<< HEAD
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter/static/Inter-Bold.ttf);
+}
+
+.theme-bold-font {
+    font-family: Inter-Regular !important;
+    font-size: 60px;
+    line-height: 64px;
+    margin: 20px;
+}
+
+.styling {
+    font-family: Inter-Bold;
+    font-size: 40px;
+
+}
+
 body {
     font-size: 14px;
-    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Inter-Bold;
     color: #8c979e;
     overflow-x: hidden;
     font-weight: 400;
 }
-=======
-
-    
->>>>>>> e515a2c03795e1d35c4acde36cea09c85790f9d7
-
 
 .footer {
 
@@ -43,55 +55,35 @@ body {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-
 .button {
     border: none;
-    margin: 4px 2px;
+    margin-left: 10%;
     padding: 15px 22px;
-    text-align: center;
+
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     color: white;
-
     cursor: pointer;
-
-=======
-.button {
-  border: none;
-  margin: 4px 2px;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  
-  transition-duration: 0.4s;
-  cursor: pointer;
- 
->>>>>>> e515a2c03795e1d35c4acde36cea09c85790f9d7
 }
 
-
-
-
-<<<<<<< HEAD
 .button1 {
     background-color: blueviolet;
-    margin-right: 10px;
+    margin-left: 1%;
+    font-family: Inter-Bold;
+
 }
 
 .button2 {
     background-color: white;
-    margin-left: 10px;
+    margin-left: 1%;
     color: black;
 }
-
 
 .button2:hover {
     background-color: black;
     color: white;
+    font-family: Inter-Bold;
 }
 
 .button1:hover {
@@ -100,16 +92,17 @@ body {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 24px;
     margin-top: 0;
     padding: 0;
+
 }
 
 h1 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 60px;
+    line-height: 64px;
     font-weight: 300;
     margin-bottom: 24px;
     margin-top: 0;
@@ -117,21 +110,11 @@ h1 {
     clear: both;
     box-sizing: inherit;
     display: block;
+    font-family:Inter-Bold
+
 }
 
-=======
 
-.button1 {background-color: blueviolet; margin-left: 60px ; ;} 
-.button2 {background-color: white;  margin-left: 60px;} 
 
-@media screen and (max-width: 480px) {
-    .row {
-      display: block !important;
-    }
-    .section {
-        display: block !important;
-      }
-      .box {
-        display: block !important;
-      }
->>>>>>> e515a2c03795e1d35c4acde36cea09c85790f9d7
+
+
